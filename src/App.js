@@ -181,7 +181,7 @@ console.log(props.tooglePlay)
             }
          }
          
-        }, 10);
+        }, 1000);
       }else if (!props.tooglePlay && props.temps !== 0) {
         clearInterval(interval);
       }
